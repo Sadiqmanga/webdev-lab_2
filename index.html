@@ -16,50 +16,72 @@
         th {
             text-align: left;
         }
-        /* Style to align name on the left and photo on the right */
+        /* Style for the name and image alignment */
         .name-photo {
             display: flex;
             justify-content: space-between;
             align-items: center;
             width: 100%;
         }
+        /* Style for the brackets */
+        .brackets {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
-    <h1>My Biodata</h1>
+    <h1>My Personal Details</h1>
     <table>
         <tr>
-            <td>Name</td>
+            <td><span class="brackets">Name</span></td>
             <td colspan="2">
                 <div class="name-photo">
-                    <span>Abubakar Sadiq Manga</span>
-                    <img src="image/sadiq_photo.jpeg" alt="Sadiq Manga's Photo" width="100">
+                    <span class="brackets">Sadiq Manga</span>
+                    <span class="brackets"><img src="image/sadiq_photo.jpeg" alt="Sadiq Manga's Photo" width="100"></span>
                 </div>
             </td>
         </tr>
         <tr>
             <td>Date of Birth</td>
-            <td colspan="2">23rd Sept 2002</td>
+            <td>2002/09/23</td>
         </tr>
         <tr>
             <td>Religion</td>
-            <td colspan="2">Islam</td>
+            <td>Muslim</td>
         </tr>
         <tr>
             <td>Race</td>
-            <td colspan="2">Black African</td>
+            <td>African</td>
         </tr>
         <tr>
-            <td>Address</td>
-            <td colspan="2">Taman Universiti, Parit Raja, Batu Pahat, Johor Bahru</td>
+            <td rowspan="4">Address</td>
+            <td>Street</td>
+            <td>Taman Universiti</td>
         </tr>
         <tr>
-            <td>Contact</td>
-            <td colspan="2">Mobile: 01164548875</td>
+            <td>Town</td>
+            <td>Parit Raja</td>
+        </tr>
+        <tr>
+            <td>District</td>
+            <td>Batu Pahat</td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td>Johor Bahru</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Contact</td>
+            <td>Mobile</td>
+            <td>01164548875</td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td>+2349038433575</td>
         </tr>
         <tr>
             <td>Social Media</td>
-            <td colspan="2">Website: <a href="https://www.facebook.com/sadeeq.manga.3?mibextid=LQQJ4d">My facebook</a></td>
+            <td><a href="#">https://www.facebook.com/sadeeq.manga.3?mibextid=LQQJ4d</a></td>
         </tr>
         <tr>
             <td>Course and Institution</td>
@@ -71,11 +93,11 @@
         </tr>
         <tr>
             <td>Personal Interests</td>
-            <td colspan="2">Reading, Coding, Blogging</td>
+            <td colspan="2">Politics</td>
         </tr>
         <tr>
-            <td>Future Plan (2025)</td>
-            <td colspan="2">Become a politician</td>
+            <td>Future Plan for 2025</td>
+            <td colspan="2">To be a politician</td>
         </tr>
     </table>
 </body>
